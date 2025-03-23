@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Affordable IT solutions in Cape Town">
-    <meta name="keywords" content="IT Services, Hardware, Software, Cape Town IT Company">
-    <title>Affordable IT Solutions | Cape Town IT Services</title>
+    <meta name="description" content="Affordable IT solutions in Cape Town offering managed services, network solutions, and cybersecurity. 24/7 support for Mitchells Plain businesses">
+    <meta name="keywords" content="Cape Town IT Services, Computer Repair Mitchells Plain, Business IT Support, Network Security South Africa">
+    <title>Affordable IT Solutions | Cape Town IT Services & Support</title>
     
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -19,8 +19,8 @@
 
     <style>
         :root {
-            --primary-blue: #003366;
-            --accent-orange: #FF6600;
+            --primary-blue: #002b5c;
+            --accent-orange: #cc5500;
             --light-gray: #f8f9fa;
         }
 
@@ -127,9 +127,21 @@
             clip: rect(0,0,0,0);
             border: 0;
         }
+
+        /* New Service Card Styles */
+        .service-card ul {
+            padding-left: 1.5rem;
+        }
+        
+        .badge {
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
     </style>
 </head>
 <body>
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
         <div class="container">
@@ -144,7 +156,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.co.za/" 
+                        <a class="nav-link" href="https://www.facebook.com/profile.php?id=61574393677864" 
                            target="_blank" 
                            rel="noopener noreferrer">
                             Shop
@@ -158,6 +170,7 @@
                             <li><a class="dropdown-item" href="#it-support">IT Support</a></li>
                             <li><a class="dropdown-item" href="#antivirus">Antivirus</a></li>
                             <li><a class="dropdown-item" href="#network">Network</a></li>
+                            <li><a class="dropdown-item" href="#hardware">Hardware</a></li>
                             <li><a class="dropdown-item" href="#microsoft-365">Microsoft 365</a></li>
                         </ul>
                     </li>
@@ -170,8 +183,8 @@
     <!-- Hero Section -->
     <section class="hero-section" aria-labelledby="heroHeading">
         <div class="container text-center">
-            <h1 id="heroHeading" class="display-4 mb-4">IT Services That Fit Your Business Needs</h1>
-            <p class="lead mb-4">Complete managed IT services at competitive prices</p>
+            <h1 id="heroHeading" class="display-4 mb-4">Affordable IT Services That Fit Your Pocket </h1>
+            <p class="lead mb-4">Let us handle the technical issues</p>
             <a href="#contact" class="btn btn-primary btn-lg px-5" role="button">Get Free Consultation</a>
         </div>
     </section>
@@ -182,34 +195,103 @@
             <h2 id="servicesHeading" class="section-title text-center mb-5">Our IT Services</h2>
             <div class="row g-4">
                 <!-- IT Support Card -->
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card service-card h-100 p-4">
                         <div class="card-body">
                             <i class="fas fa-shield-alt fa-3x text-primary mb-3" aria-hidden="true"></i>
                             <h3 class="h4">IT Support</h3>
-                            <p>Proactive IT support and maintenance to keep your business running smoothly. Our expert team provides 24/7 monitoring and rapid response times.</p>
+                            <p>Proactive IT support and maintenance to keep your Computer running smoothly. Our expert team provides monitoring and rapid response times.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Remote support</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>On-site visits</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
                 <!-- Antivirus -->
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card service-card h-100 p-4">
                         <div class="card-body">
                             <i class="fas fa-shield-virus fa-3x text-primary mb-3" aria-hidden="true"></i>
                             <h3 class="h4">Antivirus Protection</h3>
                             <p>Comprehensive cybersecurity solutions including real-time threat detection, malware removal, and phishing protection.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-2">Ransomware</span>
+                                <span class="badge bg-primary me-2">Firewall</span>
+                                <span class="badge bg-primary">Viruses</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Network -->
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card service-card h-100 p-4">
                         <div class="card-body">
                             <i class="fas fa-network-wired fa-3x text-primary mb-3" aria-hidden="true"></i>
                             <h3 class="h4">Network Solutions</h3>
                             <p>Custom network infrastructure design, implementation, and management for optimal performance and security.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Wi-Fi setup</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>RJ45 Cable installation</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Router Configure</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hardware Solutions -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card h-100 p-4">
+                        <div class="card-body">
+                            <i class="fas fa-server fa-3x text-primary mb-3" aria-hidden="true"></i>
+                            <h3 class="h4">Hardware Solutions</h3>
+                            <p>Full-spectrum hardware services including Build custom PC's,  Computer repairs, Laptop repairs, Screen replacements, upgrades, and maintenance.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Component replacements</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Equipment leasing</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Fault-finding</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microsoft Office -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card h-100 p-4">
+                        <div class="card-body">
+                            <i class="fab fa-microsoft fa-3x text-primary mb-3" aria-hidden="true"></i>
+                            <h3 class="h4">Microsoft Office</h3>
+                            <p>Complete Microsoft Office Installation and Setup of Email Accounts.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-2">Word</span>
+                                <span class="badge bg-primary me-2">Excel</span>
+                                <span class="badge bg-primary">
+PowerPoint</span>
+
+                                <span class="badge bg-primary">
+Outlook</span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Backup -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card h-100 p-4">
+                        <div class="card-body">
+                            <i class="fas fa-database fa-3x text-primary mb-3" aria-hidden="true"></i>
+                            <h3 class="h4">Data Backup Solutions</h3>
+                            <p>Secure cloud and local backup solutions with automated scheduling and disaster recovery planning.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Daily backups</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Cloning Hard drive</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Encrypted Storage </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -250,21 +332,24 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h3 class="h5 mb-4">Get in Touch</h3>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" class="form-control" id="name" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </form>
+                            <form action="https://formspree.io/f/xkgjrjkp"method="POST">
+    <!-- Keep existing form fields -->
+    <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+       </textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+
+                                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                
+
                         </div>
                     </div>
                 </div>
@@ -276,7 +361,8 @@
                                 <li class="mb-3">
                                     <i class="fas fa-map-marker-alt me-2"></i>
                                     47 Katrine Harries, New Woodlands<br>
-                                    Mitchells Plain, Cape Town<br>
+                                    Mitchells Plain, Cape Town 7785<br>
+                                    Western Cape, South Africa
                                 </li>
                                 <li class="mb-3">
                                     <i class="fas fa-phone me-2"></i>
@@ -285,6 +371,9 @@
                                 <li class="mb-3">
                                     <i class="fas fa-envelope me-2"></i>
                                     <a href="mailto:affordableitsolutions324@gmail.com">affordableitsolutions324@gmail.com</a>
+                                </li>
+                                <li class="mb-3">
+                                   
                                 </li>
                             </ul>
                             <div class="mt-4">
@@ -309,44 +398,4 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="h5">Quick Links</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
-                        <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
-                        <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <div class="social-links mb-3">
-                        <a href="#" class="text-white me-3" aria-label="Facebook">
-                            <i class="fab fa-facebook fa-lg"></i>
-                        </a>
-                        <a href="#" class="text-white me-3" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin fa-lg"></i>
-                        </a>
-                        <a href="#" class="text-white" aria-label="Twitter">
-                            <i class="fab fa-twitter fa-lg"></i>
-                        </a>
-                    </div>
-                    <p class="mb-0">&copy; 2023 Affordable IT Solutions. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Scroll Animation Script -->
-    <script>
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('navbar-scrolled');
-            } else {
-                navbar.classList.remove('navbar-scrolled');
-            }
-        });
-    </script>
-</body>
-</html>
+                   
